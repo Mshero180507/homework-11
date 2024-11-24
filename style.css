@@ -1,0 +1,264 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#first-part{
+    margin-top: 57px;
+    margin-left: 144px;
+    margin-right: 150px
+}
+
+.contact{
+    font-size: 17px;
+    font-weight:700;
+    color:#5863E3;
+    margin-bottom: 7px;
+}
+
+.big-contact{
+    font-size: 49px;
+    font-weight: 400;
+    color: #000000;
+    font-family: sans-serif;
+    margin-bottom: 57px;
+}
+
+#form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+}
+
+#textareaa{
+    border:2px solid grey ;
+    height:298px ;
+    min-width: 765px;
+    padding-left: 21px;
+    padding-top:23px;
+    background-color: #D4D3D34D;
+}
+
+.form-els{
+    width: 348px;
+    height: 59px;
+    padding-left: 19px;
+    background-color: #F8F8F8;
+    font-size: 14px;
+    font-weight: 700;
+    border:2px solid  #00000033;
+    margin-bottom: 20px;
+}
+
+#submit{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    width: 370px;
+    height: 59px;
+    background-color: #5968F4;
+}
+
+#form{
+    margin-bottom: 51px;
+}
+
+#contacts{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 74px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text{
+    color: #99999A;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.photo{
+    width: 373px;
+    height: 373px;
+}
+
+#photo-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 39px;
+}
+
+#footer{
+    background-color: black;
+    height: 372px;
+    padding-left: 143px;
+    padding-top: 63px;
+}
+
+#title-par{
+    font-weight: 700;
+    font-size: 26px;
+    color:white;
+    margin-bottom: 23px;
+}
+
+#first-par{
+    font-weight:700;
+    font-size: 17px;
+    color: #99999A;
+}
+
+.titles{
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.texts{
+    font-weight: 400;
+    font-size: 17px;
+    color:#5863E3;
+}
+
+.photo1{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+}
+
+
+#icon, #icon1, #icon2{
+    font-size: 28px;
+    padding: 20px;
+    color:#2a348e;
+    border-radius: 100%;
+    background-color: #5968F4;
+}
+
+.contacts-elements{
+    text-align: center;
+}
+
+#footer-icons, #footer-icons1, #footer-icons2{
+    width: 25px;
+    height: 25px;
+    color:#2a348e;
+}
+
+/*responsive site*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #form{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .photo{
+        width: 273px;
+        height: 273px;
+    }
+
+    #footer{
+        padding-left: 80px;
+    }
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    #textareaa{
+        min-width: 550px ;
+    }
+    #form{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .photo{
+        width: 173px;
+        height: 173px;
+    }
+
+    #footer{
+        padding-left: 50px;
+    }
+
+    #foot{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    #first-part{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .big-contact{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #form{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    #first-part{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #textareaa{
+        min-width: 350px ;
+    }
+
+    .photo{
+        width: 90px;
+        height: 90px;
+    }
+
+    #footer{
+        padding-left: 50px;
+    }
+
+    #foot{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .icons{
+        width: 20px;
+        height: 20px;
+    }
+
+    .title{
+        font-size: 15px;
+    }
+    .text{
+        font-size: 10px;
+    }
+
+    #footer{
+        height: 600px;
+    }
+
+}
